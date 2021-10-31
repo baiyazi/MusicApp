@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyMusicDemo</string>
+    <string name="launchTitle">酷狗音乐</string>
+    <string name="launchSubTitle">就是歌多</string>
+</resources>
