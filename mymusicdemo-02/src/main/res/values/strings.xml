@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyMusicDemo</string>
+    <string name="launchTitle">酷狗音乐</string>
+    <string name="launchSubTitle">就是歌多</string>
+    <string name="fx">发现</string>
+    <string name="zb">直播</string>
+    <string name="kg">k歌</string>
+    <string name="wd">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yy">音乐</string>
+    <string name="yy_loading">音乐正在加载数据...</string>
+    <string name="sp">视频</string>
+    <string name="sp_loading">视频正在加载数据...</string>
+    <string name="ts">听书</string>
+    <string name="ts_loading">听书正在加载数据...</string>
+</resources>
