@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.weizu.mymusicdemo.customcomponents.RoundEqualWidthImageView
+            android:id="@+id/fx_music_song_list_below_time_item_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fx_music_rmdt_play"
+            app:radius="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@id/fx_music_song_list_below_time_item_img"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/fx_music_song_list_below_time_item_play"
+                />
+            <TextView
+                android:id="@+id/fx_music_song_list_below_time_item_play_number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="123万"
+                android:textColor="@color/white"
+                android:gravity="left|center_vertical"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fx_music_song_list_below_time_item_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="123万"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

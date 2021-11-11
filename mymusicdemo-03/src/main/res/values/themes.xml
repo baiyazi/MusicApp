@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PlayMusicDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <!-- 状态栏深色 -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="WelcomeThemeBefore" parent="Theme.AppCompat.NoActionBar">
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!--设置背景颜色-->
+        <item name="android:windowBackground">@color/full_screen</item>
+        <!--设置没有ActionBar-->
+        <item name="android:windowNoTitle">true</item>
+        <!--设置顶部状态栏颜色-->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/full_screen</item>
+        <!-- 状态栏字体设置为深色 -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!--设置背景颜色-->
+        <item name="android:windowBackground">@color/white</item>
+        <!--设置没有ActionBar-->
+        <item name="android:windowNoTitle">true</item>
+        <!--设置顶部状态栏颜色-->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <!-- 状态栏字体设置为深色 -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

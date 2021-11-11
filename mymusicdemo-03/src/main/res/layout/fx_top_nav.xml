@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <TextView
+                android:id="@+id/fx_textview_yy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/yy"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/fx_textview_sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/fx_textview_ts"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/ts"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/fx_textview_yy_hr"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/full_screen"
+                />
+
+            <TextView
+                android:id="@+id/fx_textview_sp_hr"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/full_screen"
+                />
+
+            <TextView
+                android:id="@+id/fx_textview_ts_hr"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/full_screen"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/fx_scan_logo" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/fx_search_logo" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:src="@drawable/fx_more_logo" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyMusicDemo</string>
+    <string name="launchTitle">酷狗音乐</string>
+    <string name="launchSubTitle">就是歌多</string>
+    <string name="fx">发现</string>
+    <string name="zb">直播</string>
+    <string name="kg">k歌</string>
+    <string name="wd">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yy">音乐</string>
+    <string name="loading_info">数据加载中...</string>
+    <string name="sp">视频</string>
+    <string name="sp_loading">视频正在加载数据...</string>
+    <string name="ts">听书</string>
+    <string name="ts_loading">听书正在加载数据...</string>
+    <string name="fx_music_top_tx_yk">乐库</string>
+    <string name="fx_music_top_tx_cnxh">猜你喜欢</string>
+    <string name="fx_music_top_tx_mrtj">每日推荐</string>
+    <string name="fx_music_top_tx_phb">排行榜</string>
+    <string name="fx_music_top_tx_gd">更多</string>
+    <string name="fx_music_top_mrtj_textview">《放手去爱》：放下也很难，放手也很难</string>
+    <string name="fx_music_top_timebar_text_day">10</string>
+    <string name="fx_music_top_timebar_text_month">NOV</string>
+    <string name="fx_music_top_timebar_text_week">周三</string>
+    <string name="fx_music_top_timebar_text_more_music">更多歌单</string>
+</resources>
